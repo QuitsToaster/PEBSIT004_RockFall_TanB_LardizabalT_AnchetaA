@@ -1,0 +1,24 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# OS files
+.DS_Store
+*.log
+
+# Unity cache
+*/.vs/
+
+# If you keep a Build folder in repo, remove Build/ from ignore or move build elsewhere.
