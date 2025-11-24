@@ -1,0 +1,162 @@
+1
+00:00:00,000 --> 00:00:03,000
+[The first step we are doing is to create a new project]
+
+2
+00:00:06,000 --> 00:00:13,000
+[And then select Universal 3D and after that we name our project and click the create project]
+
+3
+00:00:24,000 --> 00:00:34,000
+[After the Unity loads, We click the file on the top right and select save as]
+
+4
+00:00:39,000 --> 00:04:49,000
+[Select the 3D game as the package file and for all set up and now we need to create an empty for the game object]
+
+5
+00:00:58,000 --> 00:01:03,000
+[As usual, we need to name it and we name it Ship]
+
+6
+00:01:05,00 --> 00:01:12,000
+[Now we need an asset to backup the object and select prefabs for the object appearance]
+
+7
+00:01:18,000 --> 00:01:23,000
+[After selecting, we can modify it and add as a component after]
+
+8
+00:01:28,000 --> 00:01:32,000
+[We now search for the rigid body and apply it]
+
+9
+00:01:41,000 --> 00:01:53,000
+[We need to uncheck the gravity for this one. After that, next is to add the ship controller]
+
+10
+00:02:04,000 --> 00:02:24,000
+[We now need to add another object which we are naming as the camera. For its component, we need the camera follow and just edit the coordinates based on the instructions and save it]
+
+11
+00:02:52,000 --> 00:03:02,000
+[So the next object we are making is the space station and repeat the process just like the thing we do in the ship object earlier]
+
+12
+00:03:12,000 --> 00:03:49,000
+[Adjust the object until it was on the right position. After some few touches, we are now on the rendering for our lighting. We can adjust the color depending on our preference and select the skybox material ]
+
+13
+00:03:52,000 --> 00:03:59,000
+[We are now adding UI and select canvas and modify some components of it]
+
+14
+00:04:53,000 --> 00:04:59,000
+[Next we are adding text for the timer and add another one for in-game UI]
+
+15
+00:05:20,000 --> 00:05:33,000
+[We now go to global volume and uncheck some components there and inspect the objects we placed. Adjust the properties of the thumb object and it’s placement]
+
+16
+00:06:49,000 --> 00:07:19,000
+[Next one, the input manager. We are changing the fire rate of the ship and save it. We go now to our IDE for editing scripts and it’s block of codes using c#]
+
+17
+00:07:26,000 --> 00:07:40,000
+[We can see here all our objects that we made earlier and the actual scripts. We are just now finalizing some adjustments of the game objects and checking if everything is good]
+
+18
+00:08:36,000 --> 00:08:48,000
+[We are now modifying the TimerText, next is the indicator manager and add label container. For the indicator, select position indicator]
+
+19
+00:09:10,000 --> 00:09:18,000
+[After saving, we can now see the scripts of the object we add in the IDE]
+
+20
+00:09:27,000 --> 00:09:37,000
+[We are now on modifying the fire button and its text properties. rename it much closer to the object name to avoid confusion.]
+
+21
+00:10:30,000 --> 00:10:51,000
+[After we changed some settings from the object, click shot and go on the graphics. Now we check for the inspector change color or the presets]
+
+22
+00:10:59,000 --> 00:11:07,000
+[Under the shot object inspector, go to the damage on collide script and modify the numbers to change the damage script.]
+
+23
+00:11:34,000 --> 00:11:40,000
+[We now move to the game win object and change the properties of the title component. ]
+
+24
+00:12:20,000 --> 00:12:30,000
+[Next, we have the game over object and we also need to modify and check it’s components. Save it after some changes before leaving.]
+
+25
+00:13:10,000 --> 00:13:20,000
+[Again, we are adding new object which we are naming as the start point. After that, go to the warning object and set it’s color.]
+
+26
+00:14:15,000 --> 00:14:38,000
+[Now we go to the VScode and see the scripts that we have. Back to the unity, click the boundary object and set its boundary script]
+
+27
+00:15:02,000 --> 00:15:12,000
+[In the assets, select the material we are needing and set the render queue. Next is we have to edit the shader]
+
+28
+00:15:53,000 --> 00:16:09,000
+[And now, back to the ship object that we created earlier. We are adding a new component under it and this would be the audio source. To have the audio that will play, we need to import the audio source that we want]
+
+
+29
+00:16:21,000 --> 00:16:30,000
+[We are just finalizing the objects for the game now and see what are the things that is needed to be modified]
+
+
+30
+00:16:45,000 --> 00:16:49,000
+[Just checking if everything is fine before finishing the project]
+
+
+31
+00:17:19,000 --> 00:17:22,000
+[after all of that, we are importing the project]
+
+32
+00:17:47,000 --> 00:17:53,000
+[Check everything in the script to make sure it’s correct so there won’t be any mistakes during the game]
+
+33
+00:18:21,000 --> 00:18:26,000
+[Then delete any unnecessary scripts that won’t affect the game]
+
+34
+00:18:56,000 --> 00:19:05,000
+[If you’re done checking the scripts, go to the game’s folder and check everything in the assets to make sure they are complete]
+
+35
+00:19:39,000 --> 00:19:41,000
+[Wait for the game to load]
+
+36
+00:19:51,000 --> 00:19:54,000
+[Then click ‘New Game’ to start the game]
+
+37
+00:19:55,000 --> 00:20:10,000
+[Use the left controller to move and aim the ship by holding and dragging. The right button shoots, and the upper right button pauses the game, showing options to resume or quit]
+
+38
+00:20:11,000 --> 00:20:29,000
+[The objective of the game is to protect the space station within the given time. You need to defend the station until the time runs out to win]
+
+
+
+
+
+
+
+
